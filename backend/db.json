@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Acer",
+      "price": 2800.99
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+",
+      "price": 5940.95
+    },
+    {
+      "name": "Headphone",
+      "price": "155.99",
+      "id": 4
+    },
+    {
+      "name": "J7 Metal",
+      "price": "850.99",
+      "id": 5
+    },
+    {
+      "name": "Motorola G3",
+      "price": "850.99",
+      "id": 6
+    }
+  ]
+}
