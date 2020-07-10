@@ -9,6 +9,5 @@ ng add @angular/material
 
 ng g c components/template/header
 
-
-
+ng g c components/template/footer
 
