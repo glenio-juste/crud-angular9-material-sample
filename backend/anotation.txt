@@ -3,7 +3,7 @@ Iniciar aplicação: npm start
 
 #################################
 
-ng new frontend -minimal
+ng new frontend --minimal
 
 ng add @angular/material
 
