@@ -17,6 +17,11 @@ ng g c components/template/nav
 
 ng g c views/home
 
+ng g c views/product-crud
+
+(criando diretivas)
+ng g d directives/red
+
 
 (colocar relógio implementado no dashboard do dataminer)
 
