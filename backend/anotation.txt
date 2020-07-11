@@ -19,6 +19,8 @@ ng g c views/home
 
 ng g c views/product-crud
 
+ng g c components/product/product-create
+
 (criando diretivas)
 ng g d directives/red
 
@@ -26,6 +28,8 @@ ng g d directives/red
 (colocar relógio implementado no dashboard do dataminer)
 
 Rever (estudar)
+
+injeção de dependência no angular
 
 callbacks
 promisses
