@@ -15,3 +15,20 @@ ng g c components/template/footer
 
 ng g c components/template/nav
 
+ng g c views/home
+
+
+(colocar relógio implementado no dashboard do dataminer)
+
+Rever (estudar)
+
+callbacks
+promisses
+observable
+
+subscrible
+
+
+desigin patheners singleton
+
+
