@@ -1,1 +1,38 @@
-<p>product-create works!</p>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+
+<!--     Sem o Two Way Data Binding para a inserção
+    <form>
+        
+        <mat-form-field>
+            <input matInput placeholder="Nome">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)">
+        </mat-form-field>
+
+    </form> -->
+
+    <form>
+
+        <mat-form-field>
+                <!--  [(ngModel)]= -> vai pegar o valor do input      name="varQualquer" -> para funcionar  -->
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name" >
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price" >
+        </mat-form-field>
+
+    </form>
+
+    <button mat-raised-button (click)="createProduct()" color="primary">
+        Salvar Produto
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancela
+    </button>
+
+</mat-card>

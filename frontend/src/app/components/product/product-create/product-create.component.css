@@ -1,0 +1,9 @@
+/* Colocar os campos do formulário um em baixo do outro */
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 20px 15px 0 0;
+}

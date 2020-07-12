@@ -29,6 +29,21 @@
       "name": "Motorola G3",
       "price": "850.99",
       "id": 6
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.85,
+      "id": 7
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.85,
+      "id": 8
+    },
+    {
+      "name": "Veio do formulário",
+      "price": "9.99",
+      "id": 9
     }
   ]
 }
