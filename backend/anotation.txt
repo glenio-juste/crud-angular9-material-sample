@@ -24,6 +24,9 @@ ng g c components/product/product-read
 ng g c components/product/product-update
 ng g c components/product/product-delete
 
+
+ng g s components/template/header/header
+
 --###########################################################
 
 Criação de tabelas pelo Material
