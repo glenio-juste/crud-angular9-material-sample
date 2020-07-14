@@ -21,6 +21,8 @@ ng g c views/product-crud
 
 ng g c components/product/product-create
 ng g c components/product/product-read
+ng g c components/product/product-update
+ng g c components/product/product-delete
 
 --###########################################################
 

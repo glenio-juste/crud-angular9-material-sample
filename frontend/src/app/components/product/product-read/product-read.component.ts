@@ -11,7 +11,7 @@ export class ProductReadComponent implements OnInit {
 
   products: Product[]
 
-  displayedColumns = ['id', 'name', 'price']
+  displayedColumns = ['id', 'name', 'price', 'action']
 
   // Injeção de dependências
   constructor(private productService: ProductService) { }

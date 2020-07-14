@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
-    },
-    {
       "id": 2,
       "name": "Notebook Acer",
       "price": 2800.99
@@ -31,19 +26,14 @@
       "id": 6
     },
     {
-      "name": "Produto de Teste",
-      "price": 125.85,
+      "name": "Moto G3 usado",
+      "price": "350.00",
       "id": 7
     },
     {
-      "name": "Produto de Teste",
-      "price": 125.85,
+      "name": "Teste",
+      "price": "123",
       "id": 8
-    },
-    {
-      "name": "Veio do formulário",
-      "price": "9.99",
-      "id": 9
     }
   ]
 }
