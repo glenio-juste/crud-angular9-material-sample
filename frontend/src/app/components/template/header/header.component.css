@@ -21,3 +21,8 @@
 .header .title-group i{
     padding-right: 5px;
 }
+
+.header .time{
+    margin: 12px 0 0 20px;
+    float: right;
+}

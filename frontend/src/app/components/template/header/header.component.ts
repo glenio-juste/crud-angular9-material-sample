@@ -8,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private headerService: HeaderService) { }
+  public today: number = Date.now();
+
+  constructor(private headerService: HeaderService) { 
+    setInterval(() => {
+      this.today = Date.now();
+   }, 1);
+  }
 
   ngOnInit(): void {
   }
