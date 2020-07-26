@@ -1,4 +1,4 @@
-# Angular 9 - Essencial
+# Angular 9 - Material
 
 #### Mantido pela gigante da tecnologia Google, o Angular 9 é um dos principais frameworks frontend do mercado! 
 
