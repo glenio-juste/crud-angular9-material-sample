@@ -8,8 +8,6 @@ import { MAT_PAGINATOR_INTL_PROVIDER_FACTORY } from '@angular/material/paginator
 })
 export class HeaderService {
 
-  /* Dentro do BehaviorSubject existe o subject que faz o papel de "porteiro". 
-  O BehaviorSubject vai detectar mdanças nos valores */
   private _headerData = new BehaviorSubject<HeaderData>({
     title: 'Início',
     icon: 'home',

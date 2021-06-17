@@ -13,10 +13,8 @@ export class ProductReadComponent implements OnInit {
 
   displayedColumns = ['id', 'name', 'price', 'action']
 
-  // Injeção de dependências
   constructor(private productService: ProductService) { }
 
-  // ngOnInit -> quando o componente é inicializado
   ngOnInit(): void {
     this.productService.read().subscribe(products => {
       this.products = products;
